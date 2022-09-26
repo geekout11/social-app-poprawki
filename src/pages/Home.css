@@ -1,0 +1,9 @@
+.home-page {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  border: 1px solid gray;
+  width: 100%;
+}

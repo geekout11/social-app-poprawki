@@ -1,0 +1,98 @@
+.sidebar {
+  width: 600px;
+  height: 530px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 80px;
+}
+
+.sidebar-users-to-follow {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  color: #1aa3f3;
+  margin: 20px;
+}
+
+.sidebar-users-to-follow h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.sidebar-user {
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: black;
+  background-color: none;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.sidebar-user:hover {
+  background-color: rgba(124, 92, 92, 0.9);
+}
+
+.follow-btn {
+  border: 1px solid #1aa3f3;
+  border-radius: 50px;
+  color: #1aa3f3;
+  background-color: #fff;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  font-weight: bold;
+  transition: all .5s;
+  position: absolute;
+  right: 35px;
+}
+
+.follow-btn:hover {
+  color: #fff;
+  background-color: rgb(22, 137, 204);
+  border: 1px solid rgb(22, 137, 204);
+}
+
+.show-more-btn {
+  border: none;
+  color: #1aa3f3;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.sidebar-profile-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.sidebar-username {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  left: 90px;
+}
+
+.sidebar-email {
+  position: absolute;
+  left: 90px;
+  top: 40px;
+}
+
+.hr-users:nth-of-type(3){
+  display: none;
+}
+
+.followers:last-child hr{
+  display: none;
+}
